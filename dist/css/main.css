@@ -64,9 +64,12 @@ p {
   color: orange;
 }
 
-.slash {
-  color: orange;
-  background: -webkit-gradient(linear, left top, right top, from(orange), to(rgba(255, 166, 0, 0.664)));
-  background: linear-gradient(to right, orange, rgba(255, 166, 0, 0.664));
+.categories {
+  margin: 5% 0;
+}
+
+.catImg {
+  -webkit-box-shadow: 5px 5px 5px lightslategrey;
+          box-shadow: 5px 5px 5px lightslategrey;
 }
 /*# sourceMappingURL=main.css.map */

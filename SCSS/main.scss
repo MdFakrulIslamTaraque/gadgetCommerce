@@ -78,8 +78,25 @@ p{
 .seeall{
     color: orange;
 }
-.slash{
-   color: orange;
-   background: linear-gradient(to right, orange, rgba(255, 166, 0, 0.664));
-
+.categories{
+    margin: 5% 0;
+    // border-bottom: 10px solid orange;
+    // margin-inline: 10px 20px;
+    // width: 30%;
+    // display: inline;
+    // margin-left: auto;
 }
+// .slash{
+//    color: orange;
+// }
+
+.catImg{
+    // border: $testBorder;
+    box-shadow: 5px 5px 5px lightslategrey;
+    
+}
+
+// .midCat{
+//     border: $testBorder;
+//     margin-top: 5%;
+// }
