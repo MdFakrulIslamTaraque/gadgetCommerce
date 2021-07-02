@@ -1,4 +1,85 @@
+$textColor: lightslategrey;
+$semiBoldText: 600;
+$marginForContainer: 1% 0 2%;
+$darkBG: black;
+$whiteText: white;
+$buttonPadding: 1% 4%;
+$buttonMargin: 2% 0;
+$bannerPadding: 1% 10%;
+$buttonRadius: 5px;
+$testBorder: 5px solid black;
+
+.container{
+    margin: $marginForContainer;
+}
 .navText{
-    color: lightslategrey;
-    font-weight:600;
+    color: $textColor;
+    font-weight: $semiBoldText;
+}
+p{
+    color: $textColor;
+}
+.byButton{
+    background-color: $darkBG;
+    color:$whiteText;
+    padding: $buttonPadding;
+    border-radius: $buttonRadius;
+    margin: $buttonMargin;
+    border: none;
+}
+.Banner{
+    padding: $bannerPadding ;
+    // border: $testBorder;
+    // height: auto;
+}
+.bgContainer{
+    height: 550px;
+    background: url("../resources/images/bg-top-right.png");
+
+}
+// .leftBg{
+//     background-image: url("../resources/images/bg-top-left.png");
+//     border: $testBorder;
+// }
+// .rightBg{
+//     background-image: url("../resources/images/bg-top-right.png");
+//     border: $testBorder;
+// }
+// .absoluteContainer{
+//     position: absolute;
+//     top: 10%;
+// }
+.center-align{
+    text-align: center;
+}
+#cfoot3,#cfoot2, #cfoot1 {
+    border-top: none;
+    background-color: #fff;
+    text-align: center;
+    // border: $testBorder;
+}
+#cfoot3 button,#cfoot2 button,#cfoot1 button{
+    padding: 3% 6%;
+    font-weight: $semiBoldText;
+}
+.card{
+    // border: $testBorder !important;
+    box-shadow: 5px 5px 15px lightgrey;
+    height: 150px;
+}
+.cpad{
+    padding: 14% 14% 3%;
+    border: none;
+    border-radius: 10px !important;
+}
+.cardbefore{
+    margin: 2% 0;
+}
+.seeall{
+    color: orange;
+}
+.slash{
+   color: orange;
+   background: linear-gradient(to right, orange, rgba(255, 166, 0, 0.664));
+
 }
